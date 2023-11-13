@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nosifer', sans-serif;
+}
+.bi-tornado {
+    font-size: 1.4rem;
+}
+.bg-nav {
+    background-color: rgb(128, 3, 3);
+}
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+nav span, li .nav-link {
+    color: white;
+}
+#container-banner {
+    margin-top: -1.4em;
+}
+#slider-container {
+    margin-top: 8em;
+}
+.mycard {
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 4px 4px 5px rgb(78, 5, 5);
+}
+.mycard:hover {
+    border: 1px  solid;
+    color: black;
+    box-shadow: -4px -4px 5px rgb(46, 45, 45);
+}
+.mycard p {
+    font-size: 0.8em;
+}
+footer .navbar-brand {
+    color: white;
+}
